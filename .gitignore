@@ -15,3 +15,5 @@ docs/_build
 cover/
 .tox
 *.bak
+
+config.py
