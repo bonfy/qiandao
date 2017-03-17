@@ -6,9 +6,18 @@
 
 ## 关于使用
 
-如果使用 binux 的 qiandao 只要在他的网站上面将自己的信息保存就能自动签到了
+~~将这些脚本部署到自己的VPS上面，建个自动化任务每天执行就OK了~~
 
-而我这个是自己按需，将这些脚本部署到自己的VPS上面，建个自动化任务每天执行就OK了
+目前我找到了个办法，部署在 travis-ci 上面（以v2ex为例）:
+
+0. 请先 fork 此项目到你自己的 github
+1. 注册travis-ci, 可以直接用github授权登陆
+2. 左侧菜单 点击 `My Repositories +` 加入 `qiandao`
+3. 右上角 `More options`->`settings`-> `Environment Variables` 中加入settings
+  name 填 v2ex_username 和 v2ex_password Value 填 你的帐号 和 密码
+4. `Cron Jobs` 设置成 `daily`
+
+大功告成，这样就能每天v2ex签到了
 
 ## v2ex
 
