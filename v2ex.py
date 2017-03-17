@@ -2,13 +2,15 @@
 
 import requests
 import re
-from config import v2ex_username, v2ex_password
+import os
 
 # if you don't have a config.py
 # You can set v2ex_username, v2ex_password yourself
 
-# v2ex_username = username
-# v2ex_password = password
+v2ex_username = os.getenv('v2ex_username')
+v2ex_password = os.getenv('v2ex_password')
+
+
 
 def qiandao_v2ex():
     headers = {
