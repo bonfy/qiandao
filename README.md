@@ -13,10 +13,8 @@
 1. 请先 fork 此项目到你自己的 github
 1. 注册travis-ci, 可以直接用github授权登陆
 1. 左侧菜单 点击 `My Repositories +` 加入 `qiandao`
-![travis-ci-add-repo-w293](http://bonfy.qiniudn.com/travis-ci-add-repo.png)
 
 1. 右上角 `More options`->`settings`-> `Environment Variables` 中加入settings
-![travis-ci-more-options](http://bonfy.qiniudn.com/travis-ci-more-options.png)
 
 ![travis-ci-environment](http://bonfy.qiniudn.com/travis-ci-environment.png)
 
