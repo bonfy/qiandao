@@ -14,7 +14,8 @@
 2. 注册travis-ci, 可以直接用github授权登陆
 3. 左侧菜单 点击 `My Repositories +` 加入 `qiandao`
 4. 右上角 `More options`->`settings`-> `Environment Variables` 中加入settings
-name 填 v2ex_username 和 v2ex_password Value 填 你的帐号 和 密码
+
+   name 填 v2ex_username 和 v2ex_password Value 填 你的帐号 和 密码
 
 ![travis-ci-environment](http://bonfy.qiniudn.com/travis-ci-environment.png)
 
