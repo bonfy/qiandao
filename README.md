@@ -1,5 +1,7 @@
 # 自动签到
 
+[![Build Status](https://travis-ci.org/bonfy/qiandao.svg?branch=master)](https://travis-ci.org/bonfy/qiandao)
+
 很多网站都有签到的功能，每天你签到后可以获得一定的收益，用于该网站的一些功能获得。但是要每天去点真的很需要恒心与毅力。大家想获得收益，但是又每天不想去登陆点击，所以很多签到项目应运而生，其中比较著名的是[binux](https://github.com/binux) 的 [qiandao](https://github.com/binux/qiandao)
 
 其实这些签到项目基本上就是爬虫功能的应用，所以我自己也就在这里写几个练练手。写这些项目的时候还是有好多心得体会的，都整理一下吧。
